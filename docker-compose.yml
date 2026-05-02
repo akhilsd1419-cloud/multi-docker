@@ -4,7 +4,7 @@ services:
     image: 'akhilsharma1419/multi-client'
     mem_limit: 128m
     hostname: client
-  server:
+  api:
     image: 'akhilsharma1419/multi-server'
     mem_limit: 128m
     hostname: api
